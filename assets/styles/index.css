@@ -47,18 +47,30 @@
 
 /* Estilo de los enlaces en la presentación */
 .presentacion__enlaces__link {
-    border: 2px solid #22D4FD; /* Borde azul claro */
-    width: 50%; /* Ancho del 50% */
-    text-align: center; /* Texto centrado */
-    border-radius: 8px; /* Bordes redondeados */
-    font-size: 1.5rem; /* Tamaño de fuente grande */
-    font-weight: 600; /* Fuente en negrita */
-    padding: 21.5px 0; /* Padding arriba y abajo */
-    text-decoration: none; /* Sin subrayado */
-    color: #F6F6F6; /* Color del texto en blanco */
-    display: flex; /* Usa flexbox para el diseño */
-    justify-content: center; /* Centra el contenido horizontalmente */
-    gap: 10px; /* Espacio entre los elementos */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid #22D4FD;
+    width: 50%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #F6F6F6;
+    /* border: 2px solid #22D4FD; /* Borde azul claro */
+    /* width: 50%; Ancho del 50% */
+    /* text-align: center; Texto centrado */
+    /* border-radius: 8px; Bordes redondeados */
+    /* font-size: 1.5rem; Tamaño de fuente grande */
+    /* font-weight: 600; Fuente en negrita */
+    /* padding: 21.5px 0; Padding arriba y abajo */
+    /* text-decoration: none; Sin subrayado */
+    /* color: #F6F6F6; Color del texto en blanco */
+    /* display: flex; Usa flexbox para el diseño */
+    /* justify-content: center; Centra el contenido horizontalmente */
+    /* gap: 10px; Espacio entre los elementos */ 
 }
 
 /* Estilo de los enlaces al pasar el ratón */
