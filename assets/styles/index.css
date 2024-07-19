@@ -5,7 +5,7 @@
 
 /* Estilo de la sección de presentación */
 .presentacion {
-    padding: 5% 15%; /* Padding alrededor */
+    padding: 5% 7%; /* Padding alrededor */
     display: flex; /* Usa flexbox para el diseño */
     align-items: center; /* Centra los elementos verticalmente */
     justify-content: space-between; /* Espacia los elementos horizontalmente */
@@ -69,6 +69,6 @@
 
 /* Estilo de la imagen en la presentación */
 .presentacion__imagen {
-    width: 45%; /* Ancho del 50% */
+    width: 40%; /* Ancho del 50% */
     border-radius: 5%;
 }
