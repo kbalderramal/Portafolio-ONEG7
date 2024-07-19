@@ -1,0 +1,71 @@
+/* Importa las fuentes desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+/* Resetea el padding y margen de todos los elementos a 0 */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;       
+}
+
+/* Estilo del cuerpo del documento */
+body {
+    box-sizing: border-box; /* Ajusta el box model para incluir padding y border en el tamaño total */
+    background-color: #000000; /* Color de fondo negro */
+    color: #F6F6F6; /* Color del texto en blanco */
+}
+
+h1,h2,h3,h4,h6,h6{
+    font-family: 'Krona One', sans-serif;
+}
+
+/* Estilo de la cabecera */
+.header {
+    padding: 2% 0% 0% 15%; /* Padding superior y a la izquierda */
+}
+
+/* Estilo del menú en la cabecera */
+.header__menu {
+    display: flex; /* Usa flexbox para el diseño */
+    gap: 80px; /* Espacio entre elementos del menú */
+}
+
+/* Estilo de los enlaces del menú */
+.header__menu__link {
+    color: #22D4FD; /* Color azul claro */
+    font-family: 'Montserrat', sans-serif; /* Fuente Montserrat */
+    font-size: 1.5rem; /* Tamaño de fuente grande */
+    font-weight: 600; /* Fuente en negrita */
+    text-decoration: none; /* Sin subrayado */
+}
+
+/* Estilo del pie de página */
+.footer {
+    background-color: #22D4FD; /* Color de fondo azul claro */
+    text-align: center; /* Texto centrado */
+    color: #000; /* Color del texto negro */
+    font-family: 'Montserrat', sans-serif; /* Fuente Montserrat */
+    font-size: 1.5rem; /* Tamaño de fuente grande */
+    font-weight: 400; /* Fuente normal */
+    padding: 1.5rem; /* Padding alrededor */
+}
+
+/* Estilos para pantallas con un ancho máximo de 1200px */
+@media (max-width: 1200px) {
+    .header {
+        padding: 5%; /* Aumenta el padding */
+    }
+
+    .header__menu {
+        justify-content: center; /* Centra el menú horizontalmente */
+    }
+    
+    .presentacion {
+        flex-direction: column-reverse; /* Cambia la dirección del diseño a columna inversa */
+        padding: 5%; /* Aumenta el padding */
+    }
+
+    .presentacion__contenido {
+        width: auto; /* Ajusta el ancho automáticamente */
+    }
+}

@@ -1,0 +1,74 @@
+/* Estilo para títulos destacados */
+.titulo-destaque {
+    color: #22D4FD; /* Color azul claro */
+}
+
+/* Estilo de la sección de presentación */
+.presentacion {
+    padding: 5% 15%; /* Padding alrededor */
+    display: flex; /* Usa flexbox para el diseño */
+    align-items: center; /* Centra los elementos verticalmente */
+    justify-content: space-between; /* Espacia los elementos horizontalmente */
+    gap: 82px; /* Espacio entre los elementos */
+}
+
+/* Estilo del contenido en la sección de presentación */
+.presentacion__contenido {
+    width: 50%; /* Ancho del 50% */
+    display: flex; /* Usa flexbox para el diseño */
+    flex-direction: column; /* Coloca los elementos en una columna */
+    gap: 40px; /* Espacio entre los elementos */
+}
+
+/* Estilo del título en el contenido de presentación */
+.presentacion__contenido__titulo {
+    font-size: 2.5rem; /* Tamaño de fuente grande */
+}
+
+/* Estilo del texto en el contenido de presentación */
+.presentacion__contenido__texto {
+    font-size: 1.5rem; /* Tamaño de fuente grande */
+}
+
+/* Estilo de los enlaces en la sección de presentación */
+.presentacion__enlaces {
+    display: flex; /* Usa flexbox para el diseño */
+    flex-direction: column; /* Coloca los elementos en una columna */
+    justify-content: space-between; /* Espacia los elementos verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+    gap: 32px; /* Espacio entre los elementos */
+}
+
+/* Estilo del subtítulo en los enlaces de presentación */
+.presentacion__enlaces__subtitulo {
+    font-weight: 400; /* Fuente normal */
+    font-size: 1.5rem; /* Tamaño de fuente grande */
+}
+
+/* Estilo de los enlaces en la presentación */
+.presentacion__enlaces__link {
+    border: 2px solid #22D4FD; /* Borde azul claro */
+    width: 50%; /* Ancho del 50% */
+    text-align: center; /* Texto centrado */
+    border-radius: 8px; /* Bordes redondeados */
+    font-size: 1.5rem; /* Tamaño de fuente grande */
+    font-weight: 600; /* Fuente en negrita */
+    padding: 21.5px 0; /* Padding arriba y abajo */
+    text-decoration: none; /* Sin subrayado */
+    color: #F6F6F6; /* Color del texto en blanco */
+    display: flex; /* Usa flexbox para el diseño */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    gap: 10px; /* Espacio entre los elementos */
+}
+
+/* Estilo de los enlaces al pasar el ratón */
+.presentacion__enlaces__link:hover {
+    background-color: rgba(34, 212, 253, 0.5);; /* Color de fondo oscuro */
+    color: #fff; /* Color del texto negro */
+}
+
+/* Estilo de la imagen en la presentación */
+.presentacion__imagen {
+    width: 45%; /* Ancho del 50% */
+    border-radius: 5%;
+}
